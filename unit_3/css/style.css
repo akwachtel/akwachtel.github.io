@@ -1,38 +1,41 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	line-height: 1.4;
-	font-family: Proxima Nova, Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: lighter;
-	color: #444444;
+	font-family: Proxima Nova, Helvetica, sans-serif;
+	color: #333;
+	font-size: 16px;
 }
-section {
-	padding: 4em 0;
-}
-header {
-	background-color: #fedf31;
-	color: #ffffff;
+#intro {
+	background: url(../images/lightbulb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
+	color: #fff;
 	text-align: center;
 }
-nav a {
-	display:inline-block;
-	padding:1em;
+.tagline {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
-	color: #17959c;
-}
-ul {
-	padding-left:1.25em;
+	color: #fedf31;
 }
 .logo {
-	/* font-size: 66px; */
-	font-style: bold;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	font-weight: bold;
 	text-transform: uppercase;
-	line-height: 1;
+	font-size: 54px;
+}
+h1 {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #17959c;
 }
 h2 {
+	font-family: Raleway, Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	color: #999999;
+	font-weight: lighter;
 	text-align: center;
 }
 h3 {
@@ -40,20 +43,15 @@ h3 {
 	font-weight: bold;
 	color: #17959c;
 }
-a {
-	color: inherit;
+ul {
+	padding-left:1.25em;
 }
 footer {
 	background-color: #fedf31;
+	padding: 24px;
 	text-align: center;
-	color: #ef5941;
+	color: #fff;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
-#intro {
-	background: url(../images/whiteboard-hero-img.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 85vh;
-	color: #fff;
-}
+
