@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:500|Muli:300|Zilla+Slab:600');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: Muli, sans-serif;
+	color: #333;
+	font-size: 16px;
+	margin: 2em;
+	line-height: 1.53em;
+}
+#intro {
+	background: url(../images/lightbulb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
+	color: #fff;
+	text-align: center;
+}
+.tagline {
+	font-family: Muli, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fedf31;
+}
+.logo {
+	font-family: "Zilla Slab", serif;
+	font-weight: black;
+	text-transform: uppercase;
+	font-size: 54px;
+}
+h1 {
+	font-family: "Zilla Slab", sans-serif;
+	font-weight: black;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #17959c;
+}
+h2 {
+	font-family: Muli, Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	color: #999999;
+	font-weight: lighter;
+	text-align: center;
+}
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #17959c;
+}
+ul {
+	padding-left:1.25em;
+}
+footer {
+	background-color: #fedf31;
+	padding: 24px;
+	text-align: center;
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
