@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:500|Muli:300,400,600,700,800,900|Zilla+Slab:600,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:500|Muli:300,400,600,700,800,900|Montserrat:500,800,900');
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
 	font-family: Muli, serif;
@@ -6,39 +6,43 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 }
-header {
-	background-color: #ffed74;
-	border: 1px black solid;
-	padding: 20px;
-}
 nav {
-	background-color: #e8c66a;
-	border: 1px black solid;
+	background-color: #666;
+}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: block;
+	width: 200px;
+	float: left;
 	padding: 20px;
 }
-#tagline {
-	font-family: Muli, sans-serif;
-	font-size: 44px;
-	font-weight: 300;
-	color: #444;
-	text-transform: none;
-	text-align: center;
+a:hover {
+	background-color: #17959c;
+	outline: white;
+}
+img { 
+	width: 200px;
+	padding: 4% 0 0 0;
+}
+p + p {
+	margin-top:1em;
+}
+section {
+	padding:4em 0;
+	width: 960px;
+	margin: 40px;
 }
 h1 {
-	font-family: "Zilla Slab", serif;
-	font-weight: 800;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	font-size: 36px;
+	color: #17959c;
 	text-transform: uppercase;
-	font-size: 56px;
-	color: #17959c;
-}
-h2 {
-	font-family: "Zilla Slab", serif;
-	font-weight: 800;
-	font-size: 42px;
-	color: #17959c;
 	line-height: 1;
 }
-h3 {
+h2 {
 	font-size: 26px;
 	color: #999999;
 	font-weight: lighter;
@@ -47,45 +51,53 @@ h3 {
 ul {
 	padding-left:1.25em;
 }
-p {
-	width: 600px;
+#logo {
+	padding: 20px;
+	width: 400px;
 }
-section {
-	padding:4em 0;
+.name {
+	font-family: Montserrat, sans-serif;
+	font-size: 56px;
+	font-weight: 800;
+	color: #fff;
+	text-transform: none;
+	padding: 10px;
+	background-color: #fedf31
 }
-img {
-	width: 200px;
+.tagline {
+	font-family: Muli, sans-serif;
+	font-size: 44px;
+	font-weight: 300;
+	color: #fff;
+	text-transform: none;
+	padding: 10px;
+	background-color: #fedf31
 }
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;   
+#intro {
+	background: url(../images/journal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 95vh;
+	color: #fff;
+	text-align: center;
 }
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
+#about {
+	margin: 80px;
+	width: 80%;
 }
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;
-    width: 62%;
+#my-work, #my-clients, #work-with-me {
+	margin: 80px;
+}
+.column {
+	width: 32%;
+	padding: 1% 2% 0 0;
+	float: left;
 }
 .clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
-footer {
-	background-color: #ff957e;
-	border: 1px black solid;
-	padding: 20px;
-}
-
