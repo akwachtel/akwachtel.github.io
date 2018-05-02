@@ -44,17 +44,7 @@ h2 {
 	font-weight: lighter;
 	text-transform: none;
 }
-aside {
-	float: left;
-	display: block;
-	width: 20%;
-}
-article {
-	float: right;
-	display: block;
-	width: 60%;
-}
-img {
+.title {
 	width: 300px;
 	padding: 20px;
 }
@@ -93,19 +83,25 @@ img {
 	padding: 1% 2% 0 0;
 	float: left;
 }
-#two_column {
-	padding: 2px;
-	margin: 80px;
-}
-#left {
-	padding: 20px;
+.client-logo {
 	float: left;
-	width: 20%;
+	padding: 10px;
+	width: 30%;
+	display: block;
 }
-#right {
-	padding: 20px;
+.client-blurb {
 	float: right;
-	width: 80%;
+	padding: 10px;
+	width: 60%;
+	display: block;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 .clearfix:after {
 	visibility: hidden;
