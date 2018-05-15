@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900|Just+Another+Hand');
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	font-family: Muli, sans-serif;
+	color: #333;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+nav {
+	background-color: #17959c;
+	text-align: center;
+}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1em;
+}
+a:hover {
+	background-color: #444;
+}
+p + p, p + h3 {
+	margin-top:1.5em;
+}
+h1 {
+	font-family: 'Just Another Hand', sans-serif;
+	font-weight: 700;
+	font-size: 6em;
+	color: #444;
+	line-height: 1;
+	padding: .5em;
+}
+h2 {
+	font-family: 'Just Another Hand', sans-serif; 
+	font-size: 3.5em;
+	color: #17959c;
+	text-transform: none;
+	line-height: 1.5em;
+}
+h3 {
+	color: #aaa;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.tagline {
+	font-family: Muli, sans-serif;
+	font-size: 1.8em;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	padding: .5em;
+	background-color: #fedf31;
+	display: inline-block;
+}
+.title {
+	width: 12em;
+	padding: 1em 0 1em 0;
+	display: inline-block;
+	text-align: left;
+}
+#intro {
+	background: url(../images/classroom.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 95vh;
+	text-align: center;
+}
+#about {
+	margin: 4em;
+	width: 80%;
+}
+#my-work, #my-clients, #work-with-me {
+	margin: 4em;
+}
+.column {
+	width: 32%;
+	padding: 1% 6% 0 0;
+	float: left;
+}
+.brand {
+	width: 30%;
+	margin: 3em;
+	display: inline-block;
+	text-align: center;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+@media only screen and (max-width: 960px) {
+	body {
+	text-align: center;
+	}
+	.column {
+	float: none;
+	width: auto;
+	text-align: center;
+	}
+@media only screen and (max-width: 760px) {
+	nav a {
+	display: block;
+	width: auto;
+	}
+	h1 {
+	font-size: 4.5em;
+	}
+	h2 {
+	font-size: 3em;
+	line-height: .8em;
+	}
+	.tagline {
+	font-size: 1.5em;
+	padding: .5em;
+	}
+	.title {
+	width: 10em;
+	}
+@media only screen and (max-width: 540px) {
+	body {
+	font-size: 16px;
+	}
+	.tagline {
+	display: none;
+	}
